@@ -16,7 +16,9 @@ function Steps() {
         <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="card border border-base-200 bg-white shadow-sm">
             <div className="card-body relative items-center text-center">
-              <div className="absolute right-4 top-4 badge badge-primary badge-outline">01</div>
+              <div className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-violet-600 text-[11px] font-bold text-white shadow-sm">
+                01
+              </div>
               <div className="flex h-20 w-20 items-center justify-center rounded-full bg-violet-100 text-4xl text-violet-600">
                 <img src={userImg} alt="Create Account" className="h-10 w-10 object-contain" />
               </div>
@@ -29,7 +31,9 @@ function Steps() {
 
           <div className="card border border-base-200 bg-white shadow-sm">
             <div className="card-body relative items-center text-center">
-              <div className="absolute right-4 top-4 badge badge-primary badge-outline">02</div>
+              <div className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-violet-600 text-[11px] font-bold text-white shadow-sm">
+                02
+              </div>
               <div className="flex h-20 w-20 items-center justify-center rounded-full bg-violet-100 text-4xl text-violet-600">
                 <img src={packageImg} alt="Choose Products" className="h-10 w-10 object-contain" />
               </div>
@@ -42,7 +46,9 @@ function Steps() {
 
           <div className="card border border-base-200 bg-white shadow-sm">
             <div className="card-body relative items-center text-center">
-              <div className="absolute right-4 top-4 badge badge-primary badge-outline">03</div>
+              <div className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-violet-600 text-[11px] font-bold text-white shadow-sm">
+                03
+              </div>
               <div className="flex h-20 w-20 items-center justify-center rounded-full bg-violet-100 text-4xl text-violet-600">
                 <img src={rocketImg} alt="Start Creating" className="h-10 w-10 object-contain" />
               </div>
