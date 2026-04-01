@@ -1,4 +1,4 @@
-import writingImg from "../assets/products/writing_2327400 1.png";
+import writingImg from "../assets/products/writing_2327400_1.png";
 import designImg from "../assets/products/design-tool.png";
 import stockImg from "../assets/products/social-media.png";
 import operationImg from "../assets/products/operation.png";
