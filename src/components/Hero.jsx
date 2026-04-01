@@ -5,11 +5,11 @@ function Hero() {
   return (
     <section
       id="features"
-      className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-12 lg:grid-cols-2 lg:px-8 lg:py-20"
-    >
+      className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-12 lg:grid-cols-2 lg:px-8 lg:py-20">
       <div className="order-1">
-        <div className="badge border-0 bg-violet-100 px-4 py-3 text-violet-700">
-          New AI-Powered Tools Available
+        <div className="inline-flex items-center gap-2 rounded-full bg-violet-100/90 px-5 py-2 text-sm font-medium text-violet-700 shadow-sm">
+          <span className="h-2.5 w-2.5 rounded-full bg-violet-500 shadow-[0_0_8px_rgba(139,92,246,0.6)]"></span>
+          <span>New AI-Powered Tools Available</span>
         </div>
 
         <h1 className="mt-6 text-4xl font-extrabold leading-tight text-slate-800 sm:text-5xl lg:text-6xl">
