@@ -2,7 +2,7 @@ import cartImg from "../assets/products/shopping-cart.png";
 
 function Navbar({ cartCount, setActiveTab }) {
   return (
-    <div className="relative navbar border-b border-base-200 bg-white px-4 lg:px-8">
+    <div className="fixed top-0 left-0 z-50 navbar w-full border-b border-base-200 bg-white/90 px-4 backdrop-blur lg:px-8">
       <div className="navbar-start flex-1">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-sm lg:hidden">

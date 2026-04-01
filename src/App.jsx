@@ -49,7 +49,7 @@ function App() {
   };
 
   return (
-    <div className="bg-base-100 text-base-content">
+    <div className="bg-base-100 pt-20 text-base-content">
       <Navbar cartCount={cart.length} setActiveTab={setActiveTab} />
       <Hero />
       <Stats />
