@@ -49,7 +49,7 @@ function Products({ cart, cartCount, setActiveTab, onAddToCart }) {
               <div className="card-body">
                 <div className="mb-3 flex items-start justify-between">
                   <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-violet-50 text-2xl">
-                    {product.icon}
+                    <img src={product.icon} alt={product.name} className="h-7 w-7 object-contain" />
                   </div>
 
                   <div className={`badge border-0 ${tagStyles[product.tagType]}`}>

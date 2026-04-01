@@ -1,3 +1,5 @@
+import cartImg from "../assets/products/shopping-cart.png";
+
 function Navbar({ cartCount, setActiveTab }) {
   return (
     <div className="relative navbar border-b border-base-200 bg-white px-4 lg:px-8">
@@ -50,7 +52,7 @@ function Navbar({ cartCount, setActiveTab }) {
 
       <div className="navbar-end flex items-center gap-2">
         <div className="indicator">
-          <span className="badge badge-primary indicator-item badge-sm">
+          <span className="badge badge-warning indicator-item badge-sm">
             {cartCount}
           </span>
 
@@ -66,20 +68,9 @@ function Navbar({ cartCount, setActiveTab }) {
             }}
             className="btn btn-ghost btn-circle btn-sm sm:btn-md"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 text-slate-700"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-1 5h12m-9 0a1 1 0 102 0m6 0a1 1 0 102 0"
-              />
-            </svg>
+            
+
+            <img src={cartImg} className="w-5 h-5" alt="" />
           </button>
         </div>
 

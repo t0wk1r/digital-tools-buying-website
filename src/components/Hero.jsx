@@ -1,3 +1,6 @@
+import bannerImg from "../assets/banner.png";
+import playImg from "../assets/play.png";
+
 function Hero() {
   return (
     <section
@@ -31,18 +34,14 @@ function Hero() {
             href="#pricing"
             className="btn btn-outline h-12 rounded-full border-violet-600 px-7 text-violet-600 hover:border-violet-600 hover:bg-violet-600 hover:text-white"
           >
-            Watch Demo
+            <img src={playImg} className="w-5 h-5" alt="" /> Watch Demo
           </a>
         </div>
       </div>
 
       <div className="order-2 flex justify-center lg:justify-end">
         <div className="w-full max-w-md overflow-hidden rounded-[28px] bg-white shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80"
-            alt="Digital tools"
-            className="h-full w-full object-cover"
-          />
+          <img src={bannerImg} alt="Digital tools" className="h-full w-full object-cover" />
         </div>
       </div>
     </section>

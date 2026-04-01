@@ -1,3 +1,7 @@
+import userImg from "../assets/user.png";
+import packageImg from "../assets/package.png";
+import rocketImg from "../assets/rocket.png";
+
 function Steps() {
   return (
     <section id="steps" className="bg-slate-50 py-20">
@@ -14,7 +18,7 @@ function Steps() {
             <div className="card-body relative items-center text-center">
               <div className="absolute right-4 top-4 badge badge-primary badge-outline">01</div>
               <div className="flex h-20 w-20 items-center justify-center rounded-full bg-violet-100 text-4xl text-violet-600">
-                👤
+                <img src={userImg} alt="Create Account" className="h-10 w-10 object-contain" />
               </div>
               <h3 className="mt-4 text-2xl font-bold text-slate-900">Create Account</h3>
               <p className="text-sm leading-7 text-slate-600">
@@ -27,7 +31,7 @@ function Steps() {
             <div className="card-body relative items-center text-center">
               <div className="absolute right-4 top-4 badge badge-primary badge-outline">02</div>
               <div className="flex h-20 w-20 items-center justify-center rounded-full bg-violet-100 text-4xl text-violet-600">
-                📦
+                <img src={packageImg} alt="Choose Products" className="h-10 w-10 object-contain" />
               </div>
               <h3 className="mt-4 text-2xl font-bold text-slate-900">Choose Products</h3>
               <p className="text-sm leading-7 text-slate-600">
@@ -40,7 +44,7 @@ function Steps() {
             <div className="card-body relative items-center text-center">
               <div className="absolute right-4 top-4 badge badge-primary badge-outline">03</div>
               <div className="flex h-20 w-20 items-center justify-center rounded-full bg-violet-100 text-4xl text-violet-600">
-                🚀
+                <img src={rocketImg} alt="Start Creating" className="h-10 w-10 object-contain" />
               </div>
               <h3 className="mt-4 text-2xl font-bold text-slate-900">Start Creating</h3>
               <p className="text-sm leading-7 text-slate-600">

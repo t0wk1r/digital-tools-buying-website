@@ -48,9 +48,8 @@ function Cart({ cart, setActiveTab, onRemoveFromCart, onCheckout }) {
                 >
                   <div className="flex items-center gap-4">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-2xl shadow-sm">
-                      {item.icon}
+                      <img src={item.icon} alt={item.name} className="h-7 w-7 object-contain" />
                     </div>
-
                     <div>
                       <h4 className="text-base font-semibold text-slate-900">
                         {item.name}

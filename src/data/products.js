@@ -1,3 +1,11 @@
+import writingImg from "../assets/products/writing_2327400 1.png";
+import designImg from "../assets/products/design-tool.png";
+import stockImg from "../assets/products/social-media.png";
+import operationImg from "../assets/products/operation.png";
+import portfolioImg from "../assets/products/portfolio.png";
+import cartImg from "../assets/products/shopping-cart.png";
+
+
 const products = [
   {
     id: 1,
@@ -13,7 +21,7 @@ const products = [
       "50+ writing templates",
       "Grammar and tone correction"
     ],
-    icon: "📝"
+    icon: writingImg,
   },
   {
     id: 2,
@@ -29,7 +37,7 @@ const products = [
       "Editable design files",
       "Commercial license included"
     ],
-    icon: "🎨"
+    icon: designImg,
   },
   {
     id: 3,
@@ -45,7 +53,7 @@ const products = [
       "Commercial usage rights",
       "New content every week"
     ],
-    icon: "📷"
+    icon: stockImg,
   },
   {
     id: 4,
@@ -61,7 +69,7 @@ const products = [
       "API integration support",
       "No-code setup options"
     ],
-    icon: "⚙️"
+    icon: operationImg,
   },
   {
     id: 5,
@@ -77,7 +85,7 @@ const products = [
       "ATS optimization",
       "Export to PDF"
     ],
-    icon: "📄"
+    icon: portfolioImg,
   },
   {
     id: 6,
@@ -93,7 +101,7 @@ const products = [
       "Caption ideas included",
       "Content planner templates"
     ],
-    icon: "📱"
+    icon: cartImg,
   },
   {
     id: 7,
