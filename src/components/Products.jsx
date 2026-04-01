@@ -80,7 +80,7 @@ function Products({ cart, cartCount, setActiveTab, onAddToCart }) {
 
                 <ul className="mt-4 space-y-2 text-sm text-slate-700">
                   {product.features.map((feature, index) => (
-                    <li key={index}>✓ {feature}</li>
+                    <li  key={index}><span className="text-green-500 font-bold">✓</span> {feature}</li>
                   ))}
                 </ul>
 

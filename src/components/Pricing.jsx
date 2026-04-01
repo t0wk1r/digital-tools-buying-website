@@ -21,10 +21,10 @@ function Pricing() {
               </div>
 
               <ul className="mt-6 space-y-2 text-sm text-slate-700">
-                <li>✓ Access to 10 free tools</li>
-                <li>✓ Basic templates</li>
-                <li>✓ Community support</li>
-                <li>✓ 1 project per month</li>
+                <li><span className="text-green-500 font-bold">✓</span> Access to 10 free tools</li>
+                <li><span className="text-green-500 font-bold">✓</span> Basic templates</li>
+                <li><span className="text-green-500 font-bold">✓</span> Community support</li>
+                <li><span className="text-green-500 font-bold">✓</span> 1 project per month</li>
               </ul>
 
               <button className="btn mt-8 rounded-full border-0 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white hover:opacity-95">
@@ -48,12 +48,12 @@ function Pricing() {
               </div>
 
               <ul className="mt-6 space-y-2 text-sm">
-                <li>✓ Access to all premium tools</li>
-                <li>✓ Unlimited templates</li>
-                <li>✓ Priority support</li>
-                <li>✓ Unlimited projects</li>
-                <li>✓ Cloud sync</li>
-                <li>✓ Advanced analytics</li>
+                <li><span className="text-green-500 font-bold">✓</span> Access to all premium tools</li>
+                <li><span className="text-green-500 font-bold">✓</span> Unlimited templates</li>
+                <li><span className="text-green-500 font-bold">✓</span> Priority support</li>
+                <li><span className="text-green-500 font-bold">✓</span> Unlimited projects</li>
+                <li><span className="text-green-500 font-bold">✓</span> Cloud sync</li>
+                <li><span className="text-green-500 font-bold">✓</span> Advanced analytics</li>
               </ul>
 
               <button className="btn mt-8 rounded-full border-0 bg-white text-violet-600 hover:bg-slate-100">
@@ -73,12 +73,12 @@ function Pricing() {
               </div>
 
               <ul className="mt-6 space-y-2 text-sm text-slate-700">
-                <li>✓ Everything in Pro</li>
-                <li>✓ Team collaboration</li>
-                <li>✓ Custom integrations</li>
-                <li>✓ Dedicated support</li>
-                <li>✓ SLA guarantee</li>
-                <li>✓ Custom branding</li>
+                <li><span className="text-green-500 font-bold">✓</span> Everything in Pro</li>
+                <li><span className="text-green-500 font-bold">✓</span> Team collaboration</li>
+                <li><span className="text-green-500 font-bold">✓</span> Custom integrations</li>
+                <li><span className="text-green-500 font-bold">✓</span> Dedicated support</li>
+                <li><span className="text-green-500 font-bold">✓</span> SLA guarantee</li>
+                <li><span className="text-green-500 font-bold">✓</span> Custom branding</li>
               </ul>
 
               <button className="btn mt-8 rounded-full border-0 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white hover:opacity-95">
